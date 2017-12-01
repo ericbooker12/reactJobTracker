@@ -31,8 +31,8 @@ class App extends Component {
 		return (
 			<div>
 				<Header />
-				<JobDetail job={this.state.jobs[0]}/>
-				<JobList jobs={this.state.jobs}/>
+				{/*<JobDetail job={this.state.jobs[0]}/>*/}
+				<JobList jobs={this.state.jobs} />
 			</div>
 		)
 	}
