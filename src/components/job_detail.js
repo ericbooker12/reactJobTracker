@@ -7,7 +7,7 @@ const JobDetail = (props) => {
 	}
 
 	return(
-		<div className='job-detail col-md-8' >
+		<div className='job-detail col-md-6' >
 			<div className='embed-responsive embed-responsive-16by9'>
 
 			</div>

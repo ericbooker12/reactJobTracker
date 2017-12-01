@@ -21,17 +21,18 @@ class App extends Component {
 			.then(res => {
 				this.setState({
 					jobs: res.data,
-					isLoaded: true
+					isLoaded: true,
+					selectedJob: res.data[0]
 				})
 			});
-	}
 
+	}
 
 	render(){
 		return (
 			<div>
 				<Header />
-				{/*<JobDetail job={this.state.jobs[0]}/>*/}
+				<JobDetail job={this.state.selectedJob}/>
 				<JobList jobs={this.state.jobs} />
 			</div>
 		)
