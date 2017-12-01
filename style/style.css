@@ -11,12 +11,27 @@
 }
 
 .job-list {
-	/*background-color: rgba(235, 235, 235, 1);*/
+	border-radius: 0 10px 10px 0;
 	box-shadow: 4px 4px 3px #424B54;
-	height: 800px;
+	height: 600px;
 	overflow: scroll;
 }
 
-.job-table {
-	height: 800px;
+.job-list-item {
+	border-left: 10px;
 }
+
+.job-list-item:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.job-detail {
+	border-radius: 10px 0 0 10px;
+	background-color: rgba(235, 235, 235, 1);
+	height: 600px;
+	box-shadow: 0px 4px 3px #424B54;
+}
+
+
+

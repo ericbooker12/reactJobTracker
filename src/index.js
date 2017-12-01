@@ -25,7 +25,6 @@ class App extends Component {
 					selectedJob: res.data[0]
 				})
 			});
-
 	}
 
 	render(){
@@ -33,7 +32,9 @@ class App extends Component {
 			<div>
 				<Header />
 				<JobDetail job={this.state.selectedJob}/>
-				<JobList jobs={this.state.jobs} />
+				<JobList
+					onJobSelect={selectedJob => this.setState({selectedJob}) }
+					jobs={this.state.jobs} />
 			</div>
 		)
 	}
