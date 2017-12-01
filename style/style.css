@@ -1,0 +1,98 @@
+.header {
+	background-color: rgba(235, 235, 235, 1);
+	position: relative;
+	width: 100%;
+	height: 125px;
+	margin: 40px 0px 0px;
+	border-radius: 4px;
+	box-shadow: 4px 4px 3px #424B54;
+	margin-bottom: 10px;
+}
+
+.footer {
+	background-color: pink;
+	position: relative;
+	width: 100%;
+	height: 125px;
+}
+
+.job-list {
+	border-radius: 0 4px 4px 0;
+	box-shadow: 4px 4px 3px #424B54;
+	height: 600px;
+	overflow: scroll;
+}
+
+.job-list-item {
+	background-color: rgba(235, 235, 235, 1);
+	border-left: 10px;
+		/*background: url(../images/vintage_paper.jpg) transparent  0px 0px;*/
+}
+
+.job-list{
+	background-color: rgba(235, 235, 235, 1);
+		border: 1px solid grey;
+		/*background: url(../images/vintage_paper.jpg) transparent  0px 0px;*/
+}
+
+.job-list-item:hover {
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+.job-detail {
+	border-radius: 4px 0 0 4px;
+	background-color: rgba(235, 235, 235, 1);
+	height: 600px;
+	box-shadow: 0px 4px 3px #424B54;
+	border: 1px solid grey;
+		/*background: url(../images/vintage_paper.jpg) transparent  0px 0px;*/
+}
+
+.note-content {
+	box-shadow: 0px 4px 3px #424B54;
+	padding: 10px;
+	overflow: scroll;
+	font-family: 'Arial', sans-serif;;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 350px;
+	background: url(../images/vintage_paper.jpg) transparent  0px 0px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.job-detail {
+	padding-top: 15px;
+}
+
+#end-of-note {
+	border: 1px solid rgba(220, 220, 220, 1);
+
+}
+
+#notes-title {
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 5px;
+	padding-bottom: 20px;
+	text-decoration: underline;
+}
+
+.note-content p{
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 130%;
+}
+
+
+
+
+
+
+
+
+

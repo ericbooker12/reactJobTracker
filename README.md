@@ -1,2 +1,3 @@
-# reactJobTracker
-A React app to record and track jobs for which that I applied.
+# Job Tracker in React
+
+This is version 2 of the JobTracker App using React.js. The first version was built using Ruby on Rails.
