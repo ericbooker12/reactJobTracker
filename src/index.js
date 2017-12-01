@@ -5,6 +5,7 @@ import axios from 'axios'
 import Header from './components/header';
 import JobList from './components/job_list';
 import JobDetail from './components/job_detail';
+import Footer from './components/footer';
 
 class App extends Component {
 
@@ -14,7 +15,8 @@ class App extends Component {
 		this.state = {
 			selectedJob: null,
 			isLoaded: false,
-			jobs: []
+			jobs: [],
+			notes: []
 		}
 
 		axios.get(`http://localhost:3000/jobs`)
@@ -35,6 +37,7 @@ class App extends Component {
 				<JobList
 					onJobSelect={selectedJob => this.setState({selectedJob}) }
 					jobs={this.state.jobs} />
+				<Footer />
 			</div>
 		)
 	}
